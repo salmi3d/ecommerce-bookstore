@@ -4,7 +4,7 @@
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li class="uk-active"><router-link tag="a" class="navbar-brand" to="/" exact>BOOKSTORE</router-link></li>
-                <li><router-link tag="a" class="navbar-brand" to="/categories" exact>Categories</router-link></li>
+                <li><router-link tag="a" class="navbar-brand" to="/genres" exact>Genres</router-link></li>
             </ul>
         </div>
     </nav>

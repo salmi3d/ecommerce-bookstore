@@ -6496,6 +6496,11 @@ uglify-js@^3.5.1:
     commander "~2.20.3"
     source-map "~0.6.1"
 
+uikit@^3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.2.7.tgz#857837c818f3287733b1295d8572a67d848f2c55"
+  integrity sha512-/EGCJd7qGGwJsidyOxr+13DZwJtmkknbQhc+fk6LHOpNazG3nm0pPw++3/Bx3exL8gbwmFyS9alwLdKmoiourQ==
+
 unfetch@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.1.0.tgz#6ec2dd0de887e58a4dee83a050ded80ffc4137db"

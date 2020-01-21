@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc19",
+    "cookieparser": "^0.1.0",
     "graphql": "^14.5.8",
     "js-cookie": "^2.2.1",
     "nuxt": "^2.0.0",

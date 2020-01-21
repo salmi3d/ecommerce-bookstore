@@ -14,7 +14,7 @@
               <div class="uk-card-body">
                   <h3 class="uk-card-title">{{ genre.name }}</h3>
                   <p>{{ genre.description }}</p>
-                  <router-link :to="{ name: 'genre-id', params: { id: genre.id }}" tag="a" class="uk-button uk-button-primary">See books
+                  <router-link :to="{ name: 'genres-id', params: { id: genre.id }}" tag="a" class="uk-button uk-button-primary">See books
                   </router-link>
               </div>
           </div>

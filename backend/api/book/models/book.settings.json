@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "genres",
+  "collectionName": "books",
   "info": {
-    "name": "genre"
+    "name": "book"
   },
   "options": {
     "increments": true,
@@ -15,15 +15,12 @@
     "description": {
       "type": "richtext"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
+    "price": {
+      "type": "decimal"
     },
-    "books": {
-      "via": "genre",
-      "collection": "book"
+    "genre": {
+      "model": "genre",
+      "via": "books"
     }
   }
 }

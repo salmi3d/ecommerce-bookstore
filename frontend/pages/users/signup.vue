@@ -1,7 +1,7 @@
 <template>
   <div class="uk-child-width-1-2@m uk-grid">
     <div class="uk-card uk-card-default uk-card-small uk-card-body">
-      <img src="~/assets/img/sign-up.jpg" width="640" class="uk-align-center" alt="">
+      <img src="~/assets/img/sign-up.jpg" width="640" class="uk-position-center" alt="">
     </div>
     <div class="uk-card uk-card-default uk-card-body">
       <form @submit.stop.prevent="signUp">

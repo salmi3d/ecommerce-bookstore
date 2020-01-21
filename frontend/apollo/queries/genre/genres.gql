@@ -1,0 +1,10 @@
+query Genres {  
+  genres {
+    id
+    name
+    description
+    image {
+      url
+    }
+  }
+}

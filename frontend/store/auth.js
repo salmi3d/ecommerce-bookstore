@@ -1,8 +1,8 @@
 import Cookies from 'js-cookie'
 
-export const state = () => {}
-
 const COOKIE_VAR_USER = 'user'
+
+export const state = () => {}
 
 export const mutations = {
   setUser(state, user) {

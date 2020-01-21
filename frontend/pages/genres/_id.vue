@@ -13,13 +13,14 @@
                         <p>{{ book.description }}</p>
                     </div>
                     <div class="uk-card-footer">
-                      <button class="uk-button uk-button-primary">Add to cart</button>
+                      <button class="uk-button uk-button-primary" @click="addToCart(book)">Add to cart</button>
                     </div>
                 </div>
             </div>
           </div>
 
-          <div class="uk-width-expand@m">
+          <div class="uk-width-1-2@m">
+            <Cart />
           </div>
       </div>
     </client-only>
@@ -28,8 +29,13 @@
 
 <script>
 import genreQuery from '~/apollo/queries/genre/genre'
+import { mapMutations } from 'vuex'
+import Cart from '~/components/Cart.vue'
 
 export default {
+  components: {
+    Cart
+  },
   data() {
     return {
       genre: Object
@@ -43,6 +49,12 @@ export default {
         return { id: this.$route.params.id }
       }
     }
+  },
+  methods:{
+    ...mapMutations({
+      addToCart: 'cart/add',
+      removeFromCart: 'cart/remove'
+    })
   }
 }
 </script>

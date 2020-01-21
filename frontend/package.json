@@ -14,6 +14,7 @@
     "@nuxtjs/apollo": "^4.0.0-rc19",
     "graphql": "^14.5.8",
     "nuxt": "^2.0.0",
+    "strapi-sdk-javascript": "^0.3.3",
     "uikit": "^3.2.7"
   },
   "devDependencies": {}

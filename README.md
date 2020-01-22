@@ -35,4 +35,4 @@ You will find more information and options in the [**frontend** README](./fronte
 
 ## Payment processing (NOTE)
 You will not be able to test making an order unless you have configured your [Stripe API Keys](https://dashboard.stripe.com/account/apikeys).
-Put your **Stripe API Private Key** into backend/.env file and your **Stripe API Public Key** into backend/.env file.
+Put your **Stripe API Private Key** into backend/.env file and your **Stripe API Public Key** into frontend/.env file.

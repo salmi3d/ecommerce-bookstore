@@ -34,7 +34,7 @@ export const mutations = {
     }
     Cookies.set(COOKIE_VAR_CART, state.items)
   },
-  emptyList(state) {
+  empty(state) {
     state.items = []
     Cookies.set(COOKIE_VAR_CART, state.items)
   }
@@ -44,7 +44,7 @@ export const getters = {
   items: state => {
     return state.items
   },
-  totalSum: state => {
+  amount: state => {
     return state.items.reduce(
       (accumulator, item) => accumulator + item.price * item.quantity,
       0

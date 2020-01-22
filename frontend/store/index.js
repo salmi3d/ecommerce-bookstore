@@ -1,7 +1,23 @@
 import cookieparser from 'cookieparser'
 
+export const state = () => ({
+  env: {}
+})
+
+export const mutations = {
+  setEnv (state, env) {
+    state.env = env
+  }
+}
+
 export const actions = {
   nuxtServerInit({ commit }, { req }) {
+    if (process.server) {
+      commit('setEnv', {
+        STRIPE_API_PUBLIC_KEY: process.env.STRIPE_API_PUBLIC_KEY
+      })
+    }
+
     let user = null
     let cart = []
 

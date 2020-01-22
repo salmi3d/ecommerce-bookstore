@@ -12,6 +12,13 @@ Run the following from your command line:
 yarn && yarn develop
 ```
 
+Default Admin account:
+
+```
+user: admin
+password: 123456
+```
+
 You will find more information and options in the [**backend** README](./backend).
 
 ## Start Nuxt from the ./frontend folder

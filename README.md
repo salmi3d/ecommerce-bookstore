@@ -1,6 +1,6 @@
-# Ecommerce bookstore Quick Start
+# 📚 Ecommerce bookstore Quick Start
 
-Ecommerce bookstore written with Nuxt, GraphQL, Strapi
+Ecommerce bookstore is built with Nuxt, GraphQL, Strapi
 
 ## Start Strapi from the ./backend folder
 
@@ -34,5 +34,6 @@ yarn && yarn dev
 You will find more information and options in the [**frontend** README](./frontend).
 
 ## Payment processing (NOTE)
+
 You will not be able to test making an order unless you have configured your [Stripe API Keys](https://dashboard.stripe.com/account/apikeys).
 Put your **Stripe API Private Key** into backend/.env file and your **Stripe API Public Key** into frontend/.env file.
